@@ -7,7 +7,7 @@ from langchain.schema import AIMessage, HumanMessage
 import gradio as gr
 import os
 
-os.environ["OPENAI_API_KEY"] = "you key"
+os.environ["OPENAI_API_KEY"] = ()
 model = ChatOpenAI(model="gpt-4o-mini")
 
 
